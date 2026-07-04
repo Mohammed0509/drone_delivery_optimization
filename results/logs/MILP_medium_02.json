@@ -1,0 +1,42 @@
+{
+  "method": "MILP",
+  "instance": "medium_02",
+  "seed": null,
+  "routes": [
+    [
+      4,
+      8,
+      13,
+      10
+    ],
+    [
+      3,
+      1,
+      14,
+      5,
+      7,
+      11
+    ],
+    [
+      6,
+      12,
+      2,
+      9
+    ]
+  ],
+  "history": [],
+  "summary": {
+    "energy": 3241.344741023479,
+    "distance": 499.93444848466555,
+    "drones_used": 3,
+    "feasible": true,
+    "infeasibility": "ok",
+    "per_route_energy": [
+      1028.875,
+      1242.07,
+      970.399
+    ]
+  },
+  "runtime": 60.25367480004206,
+  "status": "Optimal"
+}

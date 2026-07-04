@@ -1,0 +1,91 @@
+instance,n_customers,n_drones,method,seed,energy,distance,drones_used,feasible,infeasibility,runtime,extra
+small_01,6,2,NN,,1623.985,335.829,2,True,ok,0.000,
+small_01,6,2,MILP,,1328.980,284.204,2,True,ok,1.755,Optimal
+small_01,6,2,B&B,,1328.980,284.204,2,True,ok,0.003,nodes=32 completed=True
+small_01,6,2,GA,1.000,1328.980,284.204,2,True,ok,0.198,generations=73
+small_01,6,2,GA,7.000,1328.980,284.204,2,True,ok,0.222,generations=85
+small_01,6,2,GA,42.000,1333.684,311.178,2,True,ok,0.149,generations=57
+small_01,6,2,SA,1.000,1328.980,284.204,2,True,ok,0.183,iters=5000
+small_01,6,2,SA,7.000,1328.980,284.204,2,True,ok,0.180,iters=5000
+small_01,6,2,SA,42.000,1328.980,284.204,2,True,ok,0.187,iters=5000
+small_02,7,2,NN,,2129.003,367.404,2,True,ok,0.000,
+small_02,7,2,MILP,,1745.307,312.486,2,True,ok,1.836,Optimal
+small_02,7,2,B&B,,1745.307,312.486,2,True,ok,0.006,nodes=36 completed=True
+small_02,7,2,GA,1.000,1745.307,312.486,2,True,ok,0.197,generations=58
+small_02,7,2,GA,7.000,1745.307,312.486,2,True,ok,0.201,generations=63
+small_02,7,2,GA,42.000,1745.307,312.486,2,True,ok,0.190,generations=63
+small_02,7,2,SA,1.000,1745.307,312.486,2,True,ok,0.234,iters=5000
+small_02,7,2,SA,7.000,1745.307,312.486,2,True,ok,0.225,iters=5000
+small_02,7,2,SA,42.000,1745.307,312.486,2,True,ok,0.228,iters=5000
+small_03,8,3,NN,,2463.416,438.813,3,True,ok,0.000,
+small_03,8,3,MILP,,1930.889,333.762,3,True,ok,4.478,Optimal
+small_03,8,3,B&B,,1930.889,333.762,3,True,ok,0.003,nodes=69 completed=True
+small_03,8,3,GA,1.000,1930.889,333.762,3,True,ok,0.215,generations=56
+small_03,8,3,GA,7.000,2054.114,354.153,3,True,ok,0.204,generations=58
+small_03,8,3,GA,42.000,1930.889,333.762,3,True,ok,0.223,generations=61
+small_03,8,3,SA,1.000,1930.889,333.762,3,True,ok,0.278,iters=5000
+small_03,8,3,SA,7.000,1930.889,333.762,3,True,ok,0.290,iters=5000
+small_03,8,3,SA,42.000,1930.889,333.762,3,True,ok,0.280,iters=5000
+small_04,8,3,NN,,1933.128,280.948,2,True,ok,0.000,
+small_04,8,3,MILP,,1613.696,311.061,3,True,ok,4.200,Optimal
+small_04,8,3,B&B,,1613.696,311.061,3,True,ok,0.005,nodes=68 completed=True
+small_04,8,3,GA,1.000,1864.966,360.969,3,True,ok,0.397,generations=61
+small_04,8,3,GA,7.000,1864.966,360.969,3,True,ok,0.417,generations=65
+small_04,8,3,GA,42.000,1613.696,311.061,3,True,ok,0.759,generations=120
+small_04,8,3,SA,1.000,1613.696,311.061,3,True,ok,0.603,iters=5000
+small_04,8,3,SA,7.000,1613.696,311.061,3,True,ok,0.592,iters=5000
+small_04,8,3,SA,42.000,1613.696,311.061,3,True,ok,0.608,iters=5000
+medium_01,12,3,NN,,2862.768,438.397,3,True,ok,0.000,
+medium_01,12,3,MILP,,1965.733,325.862,3,True,ok,60.197,Optimal
+medium_01,12,3,B&B,,,,0,False,skipped,0.000,instance too large for the time budget
+medium_01,12,3,GA,1.000,2412.298,401.233,3,True,ok,0.934,generations=105
+medium_01,12,3,GA,7.000,2229.707,386.881,3,True,ok,1.045,generations=114
+medium_01,12,3,GA,42.000,1965.733,325.862,3,True,ok,0.652,generations=77
+medium_01,12,3,SA,1.000,1965.733,325.862,3,True,ok,0.817,iters=6000
+medium_01,12,3,SA,7.000,1965.733,325.862,3,True,ok,0.803,iters=6000
+medium_01,12,3,SA,42.000,1965.733,325.862,3,True,ok,0.785,iters=6000
+medium_02,14,3,NN,,3714.182,490.299,3,True,ok,0.000,
+medium_02,14,3,MILP,,3241.345,499.934,3,True,ok,60.254,Optimal
+medium_02,14,3,B&B,,,,0,False,skipped,0.000,instance too large for the time budget
+medium_02,14,3,GA,1.000,3249.130,482.937,3,True,ok,1.089,generations=82
+medium_02,14,3,GA,7.000,3214.620,474.706,3,True,ok,0.853,generations=89
+medium_02,14,3,GA,42.000,3243.826,488.527,3,True,ok,0.689,generations=72
+medium_02,14,3,SA,1.000,3402.566,516.568,3,True,ok,1.026,iters=6000
+medium_02,14,3,SA,7.000,3214.620,474.706,3,True,ok,0.929,iters=6000
+medium_02,14,3,SA,42.000,3321.563,510.410,3,True,ok,0.882,iters=6000
+medium_03,15,4,NN,,4610.362,532.199,3,True,ok,0.000,
+medium_03,15,4,MILP,,2644.661,480.946,4,True,ok,60.170,Optimal
+medium_03,15,4,B&B,,,,0,False,skipped,0.000,instance too large for the time budget
+medium_03,15,4,GA,1.000,2849.815,469.773,4,True,ok,1.645,generations=99
+medium_03,15,4,GA,7.000,2776.267,475.543,4,True,ok,2.045,generations=144
+medium_03,15,4,GA,42.000,2732.180,465.700,4,True,ok,1.961,generations=158
+medium_03,15,4,SA,1.000,2644.661,480.946,4,True,ok,1.609,iters=6000
+medium_03,15,4,SA,7.000,2699.938,461.161,4,True,ok,1.477,iters=6000
+medium_03,15,4,SA,42.000,2644.661,480.946,4,True,ok,1.504,iters=6000
+large_01,20,4,NN,,4708.145,610.998,4,True,ok,0.001,
+large_01,20,4,MILP,,,,0,False,skipped,0.000,instance too large for the time budget
+large_01,20,4,B&B,,,,0,False,skipped,0.000,instance too large for the time budget
+large_01,20,4,GA,1.000,4193.027,559.728,4,True,ok,1.201,generations=145
+large_01,20,4,GA,7.000,4270.650,551.796,4,True,ok,0.734,generations=90
+large_01,20,4,GA,42.000,4271.799,594.780,4,True,ok,0.783,generations=93
+large_01,20,4,SA,1.000,3988.769,515.355,4,True,ok,0.748,iters=6000
+large_01,20,4,SA,7.000,3988.769,515.355,4,True,ok,0.762,iters=6000
+large_01,20,4,SA,42.000,3944.793,498.405,4,True,ok,0.755,iters=6000
+large_02,25,5,NN,,7054.496,923.688,4,True,ok,0.001,
+large_02,25,5,MILP,,,,0,False,skipped,0.000,instance too large for the time budget
+large_02,25,5,B&B,,,,0,False,skipped,0.000,instance too large for the time budget
+large_02,25,5,GA,1.000,5120.425,725.439,5,True,ok,1.644,generations=150
+large_02,25,5,GA,7.000,5047.356,697.346,5,True,ok,3.480,generations=150
+large_02,25,5,GA,42.000,5277.318,700.239,5,True,ok,2.693,generations=98
+large_02,25,5,SA,1.000,4634.773,649.540,5,True,ok,2.769,iters=6000
+large_02,25,5,SA,7.000,4855.402,637.978,5,True,ok,2.266,iters=6000
+large_02,25,5,SA,42.000,4690.167,638.204,5,True,ok,2.195,iters=6000
+large_03,30,5,NN,,8183.511,899.461,5,True,ok,0.002,
+large_03,30,5,MILP,,,,0,False,skipped,0.000,instance too large for the time budget
+large_03,30,5,B&B,,,,0,False,skipped,0.000,instance too large for the time budget
+large_03,30,5,GA,1.000,7141.324,777.735,5,True,ok,10.826,generations=137
+large_03,30,5,GA,7.000,7001.076,811.267,5,True,ok,11.826,generations=144
+large_03,30,5,GA,42.000,7073.858,784.824,5,True,ok,8.730,generations=110
+large_03,30,5,SA,1.000,6912.986,807.267,5,True,ok,10.548,iters=6000
+large_03,30,5,SA,7.000,7407.719,847.751,5,True,ok,10.659,iters=6000
+large_03,30,5,SA,42.000,6937.580,768.080,5,True,ok,11.198,iters=6000

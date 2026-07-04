@@ -1,0 +1,37 @@
+{
+  "method": "BB",
+  "instance": "small_03",
+  "seed": null,
+  "routes": [
+    [
+      5,
+      7,
+      2
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      1,
+      4,
+      3
+    ]
+  ],
+  "history": [],
+  "summary": {
+    "energy": 1930.8891832212955,
+    "distance": 333.7620219386393,
+    "drones_used": 3,
+    "feasible": true,
+    "infeasibility": "ok",
+    "per_route_energy": [
+      471.031,
+      496.859,
+      962.999
+    ]
+  },
+  "runtime": 0.002975800074636936,
+  "completed": true,
+  "nodes": 69
+}

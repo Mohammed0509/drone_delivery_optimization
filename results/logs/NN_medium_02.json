@@ -1,0 +1,41 @@
+{
+  "method": "NN",
+  "instance": "medium_02",
+  "seed": null,
+  "routes": [
+    [
+      3,
+      1,
+      8,
+      13,
+      10
+    ],
+    [
+      6,
+      12,
+      5,
+      14,
+      7,
+      11,
+      2,
+      9
+    ],
+    [
+      4
+    ]
+  ],
+  "history": [],
+  "summary": {
+    "energy": 3714.1819273123547,
+    "distance": 490.2992589701725,
+    "drones_used": 3,
+    "feasible": true,
+    "infeasibility": "ok",
+    "per_route_energy": [
+      806.346,
+      2713.488,
+      194.347
+    ]
+  },
+  "runtime": 0.0003132997080683708
+}

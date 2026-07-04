@@ -1,0 +1,30 @@
+{
+  "method": "NN",
+  "instance": "small_01",
+  "seed": null,
+  "routes": [
+    [
+      3,
+      2,
+      5,
+      1,
+      6
+    ],
+    [
+      4
+    ]
+  ],
+  "history": [],
+  "summary": {
+    "energy": 1623.9854607937004,
+    "distance": 335.8293250973493,
+    "drones_used": 2,
+    "feasible": true,
+    "infeasibility": "ok",
+    "per_route_energy": [
+      1126.042,
+      497.943
+    ]
+  },
+  "runtime": 0.00013450020924210548
+}

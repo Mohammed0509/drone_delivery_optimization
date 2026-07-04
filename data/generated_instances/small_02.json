@@ -1,0 +1,57 @@
+{
+  "name": "small_02",
+  "depot": [
+    50.0,
+    50.0
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "x": 95.6,
+      "y": 94.78,
+      "demand": 1.0
+    },
+    {
+      "id": 2,
+      "x": 9.16,
+      "y": 36.11,
+      "demand": 2.0
+    },
+    {
+      "id": 3,
+      "x": 73.6,
+      "y": 66.97,
+      "demand": 3.0
+    },
+    {
+      "id": 4,
+      "x": 25.16,
+      "y": 21.22,
+      "demand": 1.0
+    },
+    {
+      "id": 5,
+      "x": 58.12,
+      "y": 15.84,
+      "demand": 4.0
+    },
+    {
+      "id": 6,
+      "x": 63.85,
+      "y": 80.37,
+      "demand": 5.0
+    },
+    {
+      "id": 7,
+      "x": 94.94,
+      "y": 54.42,
+      "demand": 4.0
+    }
+  ],
+  "num_drones": 2,
+  "payload_capacity": 14.0,
+  "battery_capacity": 2800.0,
+  "drone_weight": 2.0,
+  "energy_factor": 1.0,
+  "no_fly_zones": []
+}
